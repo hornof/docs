@@ -13,10 +13,8 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-TEST
    tutorial/plant-tutorial
-TEST
    docs/documentation
    faq/faq
