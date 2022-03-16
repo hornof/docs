@@ -1,5 +1,5 @@
 Plants
-=====
+======
 
 This tutorial shows how to train a neural network using Luminide. The example we will use is from the Kaggle Plant Pathology 2021 competition, in which the goal is to help farmers identify the category of foliar disease in apple trees.  You can find out more about this competition by visiting the `Kaggle website <https://www.kaggle.com/c/plant-pathology-2021-fgvc8>`__.
 
@@ -10,17 +10,19 @@ This tutorial shows how to train a neural network using Luminide. The example we
 
 Training a model on Luminide consists of 4 steps:
 
-1. [Compute Server](tutorial#compute-server)
-2. [Code Templates](tutorial#code-templates)
-3. [Import Data](tutorial#import-data)
-4. [Run Experiment](tutorial#run-experiment)
+1. :ref: `Compute Server <compute-server>`
+2. :ref: `Code Templates <code-templates>`
+3. :ref: `Import Data <import-data>`
+4. :ref: `Run Experiment <run-experiment>`
+
+.. _compute-server:
 
 Compute Server
------------------
+----------------
 
 The first step in training a model is to attach a Compute Server.
 
-Menu: `Luminide > Manage Compute Server`
+Menu: ``Luminide > Manage Compute Server``
 
 Select a Compute Server type, e.g., gcp-t4:
 
@@ -39,13 +41,13 @@ For more information on managing compute, e.g. updating the idle setting or usin
 <p></p><hr>
 
 Code Templates
-------------
+---------------
 
 Luminide contains templates that generate some intial code to get started.  This code is placed in the the `code/` directory, and includes everything needed to run your experiment -- the model, the hyperparameters, and the shell script to launch the experiment.
 
 For this tutorial, generate code to do image classification by selecting:
 
-Menu: `Luminide > Code Templates`
+Menu: ``Luminide > Code Templates``
 
 or choose `Use Template`  when a new project is created:
 
@@ -62,7 +64,7 @@ The code is placed in the code directory on the IDE Server, and can be browsed u
 For more information on managing code, e.g. how to import code from an existing repo, see  [Code](docs/code).
 
 Import Data
------------
+------------
 
 Lastly, import your data to the Compute Server, which is where the data will be consumed.
 
@@ -80,8 +82,10 @@ For more information on importing data, e.g. importing code from from Kaggle or 
 
 <p></p><hr>
 
+.. _run-experiment:
+
 Run Experiment
-------------
+----------------
 
 Now you're ready to run an experiment:
 
