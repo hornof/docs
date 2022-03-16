@@ -19,6 +19,7 @@ Contents
 --------
 
 .. toctree::
+  :maxdepth: 2
 
    plants
    tutorial/plant-tutorial
