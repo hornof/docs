@@ -21,6 +21,6 @@ Contents
 .. toctree::
 
    plants
-   tutorial/plants
+   tutorial/plant-tutorial
    docs/plants
    faq/plants
