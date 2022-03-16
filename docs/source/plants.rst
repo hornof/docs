@@ -28,7 +28,7 @@ Select a Compute Server type, e.g., gcp-t4:
 
 .. image:: images/feb-compute-server.png
   :width: 600
-  :style: border:1px solid lightgray
+  :class: with-border
 
 Note: The first time you select a Google compute server, you will need to select a volume size.  For this tutorial, use the default 50GB.
 
@@ -36,7 +36,6 @@ Then click `Attach Compute Server`.  This will connect with the CSP, provision a
 
 .. image:: images/feb-status-bar.png
   :width: 400
-  :style: border:1px solid lightgray
 
 Note: This could take several minutes depending on the Compute Server type.
 
