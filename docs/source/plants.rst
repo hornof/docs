@@ -38,7 +38,7 @@ Then click ``Attach Compute Server``.  This will connect with the CSP, provision
 
 Note: This could take several minutes depending on the Compute Server type.
 
-For more information on managing compute, e.g. updating the idle setting or using spot compute, see  [Compute](docs/compute).
+For more information on managing compute, e.g. updating the idle setting or using spot compute, see  `Compute<docs/compute>`.
 
 Code Templates
 ---------------
@@ -49,7 +49,7 @@ For this tutorial, generate code to do image classification by selecting:
 
 Menu: ``Luminide > Code Templates``
 
-or choose `Use Template`  when a new project is created:
+or choose ``Use Template``  when a new project is created:
 
 .. image:: images/feb-initialize-project-code.png
   :width: 300
@@ -72,7 +72,7 @@ Lastly, import your data to the Compute Server, which is where the data will be 
 
 Menu: ``Luminide > Import Data to Compute Server``
 
-Navigate to the `Google Cloud Storage` tab, which is where the Plant Pathology dataset is, and copy/paste the following dataset bucket into the text box: ``gs://luminide-example-plant-pathology``.
+Navigate to the ``Google Cloud Storage`` tab, which is where the Plant Pathology dataset is, and copy/paste the following dataset bucket into the text box: ``gs://luminide-example-plant-pathology``.
 
 Then click the ``Import Data to Compute Server`` button and the data will start downloading. When it's finished, you will get a "Download Succeeded" message.
 
@@ -92,17 +92,17 @@ Now you're ready to run an experiment:
 
 Menu: ``Luminide > Run Experiment``
 
-Running an experiment copies the shell script in <kbd>code/full.sh</kbd> to the Compute Server and executes it.  Enter an optional experiment description and then click ``Start Full Training``.
+Running an experiment copies the shell script in ``code/full.sh`` to the Compute Server and executes it.  Enter an optional experiment description and then click ``Start Full Training``.
 
 .. image:: images/feb-train.png
   :width: 600
 
-The output from executing the <kbd>full.sh</kbd> shell script on the Compute Server is displayed in an embedded terminal.
+The output from executing the ``full.sh`` shell script on the Compute Server is displayed in an embedded terminal.
 
 .. image:: images/feb-training-completed.png
   :width: 700
 
-Once it's done, you will see a <kbd>Experiment Completed</kbd> message. The experiment output is saved and can be accessed via the Code File Browser or with [Experiment Tracking](docs/run-experiment#experiment-tracking).
+Once it's done, you will see a ``Experiment Completed`` message. The experiment output is saved and can be accessed via the Code File Browser or with [Experiment Tracking](docs/run-experiment#experiment-tracking).
 
 Congratulations! You've just trained your first neural-network using Luminide.
 
