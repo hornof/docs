@@ -22,5 +22,5 @@ Contents
 
    plants
    tutorial/plant-tutorial
-   docs/docs
+   docs/documentation
    faq/faq
