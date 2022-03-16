@@ -1,7 +1,5 @@
----
 title: Plants
-weight: -100
----
+=====
 
 This tutorial shows how to train a neural network using Luminide. The example we will use is from the Kaggle Plant Pathology 2021 competition, in which the goal is to help farmers identify the category of foliar disease in apple trees.  You can find out more about this competition by visiting the [Kaggle website](https://www.kaggle.com/c/plant-pathology-2021-fgvc8).
 
@@ -15,7 +13,8 @@ Training a model on Luminide consists of 4 steps:
 3. [Import Data](tutorial#import-data)
 4. [Run Experiment](tutorial#run-experiment)
 
-## Compute Server
+Compute Server
+-----------------
 
 The first step in training a model is to attach a Compute Server.
 
@@ -37,7 +36,8 @@ For more information on managing compute, e.g. updating the idle setting or usin
 
 <p></p><hr>
 
-## Code Templates
+Code Templates
+------------
 
 Luminide contains templates that generate some intial code to get started.  This code is placed in the the `code/` directory, and includes everything needed to run your experiment -- the model, the hyperparameters, and the shell script to launch the experiment.
 
@@ -59,7 +59,8 @@ The code is placed in the code directory on the IDE Server, and can be browsed u
 
 For more information on managing code, e.g. how to import code from an existing repo, see  [Code](docs/code).
 
-## Import Data
+Import Data
+-----------
 
 Lastly, import your data to the Compute Server, which is where the data will be consumed.
 
@@ -77,7 +78,8 @@ For more information on importing data, e.g. importing code from from Kaggle or 
 
 <p></p><hr>
 
-## Run Experiment
+Run Experiment
+------------
 
 Now you're ready to run an experiment:
 
