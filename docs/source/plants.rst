@@ -5,7 +5,6 @@ This tutorial shows how to train a neural network using Luminide. The example we
 
 .. image:: images/feb-apple-leaf-good.png
    :width: 300
-
 .. image:: images/feb-apple-leaf-bad.png
    :width: 300
 
