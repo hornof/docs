@@ -28,11 +28,10 @@ Select a Compute Server type, e.g., gcp-t4:
 
 .. image:: images/feb-compute-server.png
   :width: 600
-  :class: with-border
 
 Note: The first time you select a Google compute server, you will need to select a volume size.  For this tutorial, use the default 50GB.
 
-Then click `Attach Compute Server`.  This will connect with the CSP, provision a new server, and indicate once this process has completed by displaying a green checkmark (both in the Manage Compute Server tab as well as the bottom-left status bar):
+Then click ``Attach Compute Server``.  This will connect with the CSP, provision a new server, and indicate once this process has completed by displaying a green checkmark (both in the Manage Compute Server tab as well as the bottom-left status bar):
 
 .. image:: images/feb-status-bar.png
   :width: 400
@@ -44,7 +43,7 @@ For more information on managing compute, e.g. updating the idle setting or usin
 Code Templates
 ---------------
 
-Luminide contains templates that generate some intial code to get started.  This code is placed in the the `code/` directory, and includes everything needed to run your experiment -- the model, the hyperparameters, and the shell script to launch the experiment.
+Luminide contains templates that generate some intial code to get started.  This code is placed in the the ``code/`` directory, and includes everything needed to run your experiment -- the model, the hyperparameters, and the shell script to launch the experiment.
 
 For this tutorial, generate code to do image classification by selecting:
 
@@ -73,11 +72,11 @@ Lastly, import your data to the Compute Server, which is where the data will be 
 
 Menu: ``Luminide > Import Data to Compute Server``
 
-Navigate to the `Google Cloud Storage` tab, which is where the Plant Pathology dataset is, and copy/paste the following dataset bucket into the text box:  {{< copy_text "gs://luminide-example-plant-pathology" >}}
+Navigate to the `Google Cloud Storage` tab, which is where the Plant Pathology dataset is, and copy/paste the following dataset bucket into the text box: ``gs://luminide-example-plant-pathology``.
 
-Then click the `Import Data to Compute Server` button and the data will start downloading. When it's finished, you will get a "Download Succeeded" message.
+Then click the ``Import Data to Compute Server`` button and the data will start downloading. When it's finished, you will get a "Download Succeeded" message.
 
-.. image:: feb-google-cloud.png
+.. image:: images/feb-google-cloud.png
   :width: 500
 
 The data can be browsed using the [Data File Browser](docs/overview#data-file-browser) in the left-hand sidebar.
@@ -93,7 +92,7 @@ Now you're ready to run an experiment:
 
 Menu: ``Luminide > Run Experiment``
 
-Running an experiment copies the shell script in <kbd>code/full.sh</kbd> to the Compute Server and executes it.  Enter an optional experiment description and then click `Start Full Training`.
+Running an experiment copies the shell script in <kbd>code/full.sh</kbd> to the Compute Server and executes it.  Enter an optional experiment description and then click ``Start Full Training``.
 
 .. image:: images/feb-train.png
   :width: 600
