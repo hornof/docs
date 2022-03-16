@@ -3,13 +3,15 @@ Plants
 
 This tutorial shows how to train a neural network using Luminide. The example we will use is from the Kaggle Plant Pathology 2021 competition, in which the goal is to help farmers identify the category of foliar disease in apple trees.  You can find out more about this competition by visiting the [Kaggle website](https://www.kaggle.com/c/plant-pathology-2021-fgvc8).
 
-You can find out more about this competition by visiting the `Kaggle website <https://www.kaggle.com/c/plant-pathology-2021-fgvc8>`.
+You can find out more about this competition by visiting the `Kaggle website <https://www.kaggle.com/c/plant-pathology-2021-fgvc8>`__.
 
 .. image:: images/feb-apple-leaf-good.png
    :align: center
+   :width: 300
 
 .. image:: images/feb-apple-leaf-bad.png
    :align: center
+   :width: 300
 
 <img src="/docs/tutorial/media/feb-apple-leaf-good.png" width="300"  style="border:1px solid lightgray">
 <img src="/docs/tutorial/media/feb-apple-leaf-bad.png" width="300"  style="border:1px solid lightgray">
