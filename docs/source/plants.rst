@@ -1,9 +1,7 @@
 Plants
 ======
 
-This tutorial shows how to train a neural network using Luminide. The example we will use is from the Kaggle Plant Pathology 2021 competition, in which the goal is to help farmers identify the category of foliar disease in apple trees.  You can find out more about this competition by visiting the `Kaggle website <https://www.kaggle.com/c/plant-pathology-2021-fgvc8>`__.
-
-You can find out more about this competition by visiting the `Kaggle website <https://www.kaggle.com/c/plant-pathology-2021-fgvc8>`_.
+This tutorial shows how to train a neural network using Luminide. The example we will use is from the Kaggle Plant Pathology 2021 competition, in which the goal is to help farmers identify the category of foliar disease in apple trees.  You can find out more about this competition by visiting the `Kaggle website <https://www.kaggle.com/c/plant-pathology-2021-fgvc8>`_.
 
 .. image:: images/feb-apple-leaf-good.png
    :width: 300
@@ -12,18 +10,10 @@ You can find out more about this competition by visiting the `Kaggle website <ht
 
 Training a model on Luminide consists of 4 steps:
 
-1. :ref: `Compute Server <compute-server>`
-2. :ref: `Code Templates <code-templates>`
-3. :ref: `Import Data <import-data>`
-4. :ref: `Run Experiment <run-experiment>`
-
-1. :ref: `Compute Server`_
-1. :ref: `Compute Server`__
 1. `Compute Server`_
-1. `Compute Server`__
-2. :ref: `Code Templates <code-templates>`
-3. :ref: `Import Data <import-data>`
-4. :ref: `Run Experiment <run-experiment>`
+2. `Code Templates`_
+3. `Import Data`_
+4. `Run Experiment`_
 
 .. _compute-server:
 
