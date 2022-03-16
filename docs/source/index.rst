@@ -20,7 +20,7 @@ Contents
 
 .. toctree::
 
-   usage
-   api
-   tutorial
    plants
+   tutorial/plants
+   docs/plants
+   faq/plants
