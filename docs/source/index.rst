@@ -1,20 +1,21 @@
-Welcome to Luminide's documentation!
+Luminide Documentation
 ==================================================
 
-**Luminide** makes it easier to build better AI models.
+Luminide makes it easier to build better AI models.  To get get started, we recommend reading the short :ref:`Overview<overview>` and then doing the :ref:`Tutorial<plant-leaf-tutorial>`.
 
-.. note::
-
-   :maxdepth: 1
-   LUMINIDE
-
-Contents
--------------
+.. image:: images/luminide-screen.png
 
 .. toctree::
+   :caption: Getting Started
+   :hidden:
 
-   tutorial/plant.md
    docs/overview
+   Tutorial <tutorial/plant.md>
+
+.. toctree::
+   :caption: Documentation
+   :hidden:
+
    docs/compute.md
    docs/code
    docs/data
@@ -26,4 +27,9 @@ Contents
    docs/terminals
    docs/python-pytorch
    docs/configuration
-   faq/_index.md
+
+.. toctree::
+   :caption: FAQ
+   :hidden:
+
+   Frequently Asked Questions <faq/_index.md>

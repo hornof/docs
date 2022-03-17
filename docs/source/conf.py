@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Luminide'
-copyright = '2021, Luminide'
+copyright = '2022, Luminide'
 author = 'Luminide'
 
 release = '0.1'
