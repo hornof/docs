@@ -33,4 +33,4 @@ Luminide makes it easier to build better AI models.  To get get started, we reco
    :caption: FAQ
    :hidden:
 
-   Frequently Asked Questions <faq/_index.md>
+   Frequently Asked Questions <faq/faq>
