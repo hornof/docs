@@ -35,7 +35,7 @@ Select a theme (i.e. light, dark) and keyboard mappings (vim, emacs, or sublime)
 
 ## Kaggle API Token
 
-If you need to download a Kaggle API token, first connect to a [Compute Server](tutorial#compute-server), then navigate to the  [Import Data](tutorial#import-data) page, and follow the instructions in the Kaggle Setup section.
+If you need to download a Kaggle API token, first connect to a [Compute Server](docs-compute-server), then navigate to the  [Import Data](docs-import-data) page, and follow the instructions in the Kaggle Setup section.
 
 ```{image} ../images/feb-kaggle-api-token.png
 :width: 350

@@ -3,6 +3,7 @@ title: Code
 weight: 120
 ---
 
+(docs-code)=
 # Code
 
 ## Code Templates

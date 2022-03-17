@@ -3,8 +3,10 @@ title: Compute
 weight: 110
 ---
 
+(docs-compute)=
 # Compute
 
+(docs-compute-server)=
 ## Compute Server
 
 This feature allows you to attach or detach to a server and configure its settings.
