@@ -7,6 +7,23 @@ Check out the :doc:`usage` section for further information, including how to :re
 
 .. note::
 
+   plant-tutorial.rst
+   plant-tutorial2.md
+   tutorial/_index.md
+   docs/compute.md
+   docs/code
+   docs/configuration
+   docs/data
+   docs/early-ranking
+   docs/hyperparameter-tuning
+   docs/overview
+   docs/projects-packages
+   docs/python-pytorch
+   docs/run-experiment
+   docs/terminals
+   docs/tracking-visualization
+   faq/_index.md
+
    LUMINIDE
 
 Contents
@@ -15,6 +32,17 @@ Contents
 .. toctree::
    :maxdepth: 1
 
-   tutorial/plant-tutorial
-   docs/documentation
-   faq/faq
+   tutorial/_index.md
+   docs/compute.md
+   docs/code
+   docs/configuration
+   docs/data
+   docs/early-ranking
+   docs/hyperparameter-tuning
+   docs/overview
+   docs/projects-packages
+   docs/python-pytorch
+   docs/run-experiment
+   docs/terminals
+   docs/tracking-visualization
+   faq/_index.md
