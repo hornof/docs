@@ -4,7 +4,7 @@ weight: -200
 ---
 
 (overview)=
-tutut# Overview
+# Overview
 
 Luminide makes it *easier* to build *better AI models*:
 - **Easier**: Luminide contains all of the hardware and software you need, is hosted in the cloud, and automates the tedious, repetitive tasks.

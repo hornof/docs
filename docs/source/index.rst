@@ -8,6 +8,7 @@ Luminide makes it easier to build better AI models.  To get get started, we reco
 .. toctree::
    :caption: Getting Started
    :hidden:
+   :maxdepth: 1
 
    docs/overview
    Tutorial <tutorial/plant.md>
