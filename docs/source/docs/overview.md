@@ -36,6 +36,7 @@ project                                         project
 
 Note that both <kbd>code/</kbd> and <kbd>input/</kbd> are peers of the working directory. This means that if your code wants to access the dataset, the paths must be prefixed with <kbd>../input</kbd>. To access files in the <kbd>code/</kbd> directory, the paths must be prefixed with <kbd>../code</kbd>.
 
+(code-file-browser)=
 ## Code File Browser
 
 Code, which is located on the IDE Server, can be browsed using the Code File Browser in the left-hand sidebar (hide browser by clicking on the active icon).
@@ -44,6 +45,7 @@ Code, which is located on the IDE Server, can be browsed using the Code File Bro
 :width: 300
 ```
 
+(data-file-browser)=
 ## Data File Browser
 
 Data, which is located on the Compute Server, can be browsed using the Data File Browser in the left-hand sidebar (hide data browser by clicking on the active icon):

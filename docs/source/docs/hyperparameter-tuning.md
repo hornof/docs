@@ -3,6 +3,7 @@ title: Hyperparameter Tuning
 weight: 210
 ---
 
+(hyperparameter-tuning)=
 # Hyperparameter Tuning
 
 ## With Luminide Templates
@@ -97,7 +98,7 @@ Once you have configured your hyperparameter tuning sweep, launch it with the `S
 :width: 550
 ```
 
-You can track sweeps in progress by using [Experiment Tracking](docs/run-experiment#experiment-tracking) or with [Experiment Visualization](docs/run-experiment#experiment-visualization).  For example, here's what a sweep in progress looks like:
+You can track sweeps in progress by using [Experiment Tracking](tracking-visualization) or with [Experiment Visualization](experiment-visualization).  For example, here's what a sweep in progress looks like:
 
 ```{image} ../images/feb-hyperparameter-visualization.png
 :width: 550

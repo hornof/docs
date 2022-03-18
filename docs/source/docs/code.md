@@ -37,7 +37,7 @@ The code is placed in the code directory, and can be browsed using the Code File
 
 ## Import Code
 
-In addition to using [Code Templates](tutorial#code-templates) to generate code, you can also import code from an existing repo:
+In addition to using [Code Templates](docs-code) to generate code, you can also import code from an existing repo:
 
 Menu: `Luminide > Import Code`
 

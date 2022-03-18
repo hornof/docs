@@ -3,8 +3,8 @@ title: Early Ranking
 weight: 220
 ---
 
+(early-ranking)=
 # Early Ranking
-
 
 Luminide includes an optimization we developed which uses predictive modeling to determine the relative outcome of a training run after only a few epochs. For example, instead of running 30 epochs for a training run, it may only require 3 epochs.  We call this optimization Early Ranking.
 
@@ -16,6 +16,7 @@ Early Ranking can be used by data scientists to do rapid prototyping.  Simply ch
 :width: 550
 ```
 
+(fast-sweeps)=
 ## Fast Sweeps
 
   Early Ranking can also be used for Hyperparameter Tuning.  Similary, check the <kbd>Fast Sweep</kbd> box to enable this feature.  Each of the trails in the Sweep will then execute a fewer number of epochs, and then use the precitive model to compute its score.

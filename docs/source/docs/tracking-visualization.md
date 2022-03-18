@@ -5,6 +5,7 @@ weight: 200
 
 # Tracking & Visualization
 
+(experiment-tracking)=
 ## Experiment Tracking
 
 Each time an experiment is run, Luminide automatically saves a snapshot of all of the inputs and outputs. You can see a list of all of the experiments run by selecting:
@@ -32,6 +33,7 @@ And compare the inputs from two different experiments using the `Code Diff` tab:
 :width: 
 ```
 
+(experiment-visualization)=
 ## Experiment Visualization
 
 To enable monitoring with TensorBoard, follow the [TensorBoard documentation](https://pytorch.org/docs/stable/tensorboard.html). Add the following lines to the training code for minimal functionality:
