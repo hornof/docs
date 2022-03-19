@@ -64,7 +64,7 @@ Then select the PyTorch Image Classification template.
 
 There are a number of parameters you can modify to generate code specific to your problem.  For this tutorial, you can use the default parameters.
 
-The code is placed in the code directory on the IDE Server, and can be browsed using the [Code File Browser](docs/overview#code-file-browser) in the left-hand sidebar.
+The code is placed in the code directory on the IDE Server, and can be browsed using the [Code File Browser](code-file-browser) in the left-hand sidebar.
 
 For more information on managing code, e.g. how to import code from an existing repo, see  [Code](docs-code).
 
@@ -83,13 +83,12 @@ Then click the `Import Data to Compute Server` button and the data will start do
 :width: 500
 ```
 
-The data can be browsed using the [Data File Browser](docs/overview#data-file-browser) in the left-hand sidebar.
+The data can be browsed using the [Data File Browser](data-file-browser) in the left-hand sidebar.
 
 For more information on importing data, e.g. importing code from from Kaggle or analyzing your data with Jupyter notebooks, see  [Data](docs-data).
 
 <p></p><hr>
 
-(run-experiment)=
 ## Run Experiment
 
 Now you're ready to run an experiment:
@@ -108,7 +107,7 @@ The output from executing the <kbd>full.sh</kbd> shell script on the Compute Ser
 :width: 700
 ```
 
-Once it's done, you will see a <kbd>Experiment Completed</kbd> message. The experiment output is saved and can be accessed via the Code File Browser or with [Experiment Tracking](docs/run-experiment#experiment-tracking).
+Once it's done, you will see a <kbd>Experiment Completed</kbd> message. The experiment output is saved and can be accessed via the Code File Browser or with [Experiment Tracking](experiment-tracking).
 
 Congratulations! You've just trained your first neural-network using Luminide.
 

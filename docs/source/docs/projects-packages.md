@@ -21,6 +21,7 @@ Menu: `Luminide > Open Project`
 
 A project tracks code changes as well as the output of each experiment run.  New projects are empty, so code and datasets both need to be added before an experiment can be run.
 
+(manage-packages)=
 ## Manage Packages
 
 Menu: `Luminide > Manage Packages`

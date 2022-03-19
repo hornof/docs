@@ -30,7 +30,7 @@ You can also browse logs files from different experiments in the `Logs` tab:
 And compare the inputs from two different experiments using the `Code Diff` tab:
 
 ```{image} ../images/exp-track-code.png
-:width: 
+:width: 500
 ```
 
 (experiment-visualization)=
@@ -59,4 +59,3 @@ Here you can see how the training loss changes over time.
 ```{image} ../images/tensor-board.png
 :width: 400
 ```
-

@@ -22,7 +22,7 @@ To run a Full Training, navigate to the `Train` tab.  Luminide will copy everyth
 
 - You can view and edit this script by selecting `Edit full.sh`, e.g. to change the number of epochs to execute.
 - Leave the `Track Experiment` box checked to automatically save the results (see  [Experiment Tracking](experiment-tracking) for details).
-- If needed, additional <kbd>pip</kbd> or <kbd>apt</kbd> packages can be installed on the Compute Server (see  [Manage Packages](docs/projects-packages#manage-packages) for details).
+- If needed, additional <kbd>pip</kbd> or <kbd>apt</kbd> packages can be installed on the Compute Server (see  [Manage Packages](manage-packages) for details).
 
 Once you're ready, click `Start Full Training`. 
 
