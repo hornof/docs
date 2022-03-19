@@ -5,6 +5,7 @@ weight: 400
 
 # Terminals
 
+(ide-server-terminal)=
 ## IDE Server Terminal
 
 Menu: `Luminide > IDE Server Terminal`
@@ -17,6 +18,7 @@ Opening a terminal on the IDE Server allows you to:
 :width: 450
 ```
 
+(compute-server-terminal)=
 ## Compute Server Terminal
 
 Menu: `Luminide > Compute Server Terminal`

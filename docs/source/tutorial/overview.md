@@ -3,7 +3,7 @@ title: Overview
 weight: -200
 ---
 
-(overview)=
+(starting-overview)=
 # Overview
 
 Luminide makes it *easier* to build *better AI models*:

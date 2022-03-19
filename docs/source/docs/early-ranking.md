@@ -3,7 +3,6 @@ title: Early Ranking
 weight: 220
 ---
 
-(early-ranking)=
 # Early Ranking
 
 Luminide includes an optimization we developed which uses predictive modeling to determine the relative outcome of a training run after only a few epochs. For example, instead of running 30 epochs for a training run, it may only require 3 epochs.  We call this optimization Early Ranking.

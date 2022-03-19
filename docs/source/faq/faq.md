@@ -18,8 +18,8 @@ No.  The Compute Server is not auto-detached if there is any activity in the sys
 Yes.  The Compute Server is allocated exclusively to each user, therefore you have superuser access to it.
 
 **How do I list/add packages installed on my machine?** \
-Use the [Compute Server Terminal](tutorial/additional-features#compute-server-terminal).
+Use the [Compute Server Terminal](compute-server-terminal).
 
 **How do I run additional git commands?** \
-Use the [IDE Server Terminal](tutorial/additional-features#ide-server-terminal).
+Use the [IDE Server Terminal](ide-server-terminal).
 

@@ -3,7 +3,6 @@ title: Hyperparameter Tuning
 weight: 210
 ---
 
-(hyperparameter-tuning)=
 # Hyperparameter Tuning
 
 ## With Luminide Templates

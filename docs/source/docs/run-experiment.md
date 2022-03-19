@@ -13,7 +13,7 @@ Luminide runs two types of experiments, *trainings* and *sweeps*.  A training co
 
 <p></p><hr>
 
-(run-experiment)=
+(docs-run-experiment)=
 ## Run Experiment
 
 Menu: `Luminide > Run Experiment`
@@ -36,7 +36,7 @@ The output from executing the <kbd>full.sh</kbd> shell script on the Compute Ser
 :width: 900
 ```
 
-When it's done, you will get an <kbd>Experiment Completed</kbd> message and the results will be copied back to the IDE Server, where you can browse them in the [Code File Browser](code-file-browser) or with the [Experiment Tracking](experiment-tracking) feature.  See [Overview](overview) if you have questions about Luminide servers and its file system,
+When it's done, you will get an <kbd>Experiment Completed</kbd> message and the results will be copied back to the IDE Server, where you can browse them in the [Code File Browser](code-file-browser) or with the [Experiment Tracking](experiment-tracking) feature.  See [Overview](starting-overview) if you have questions about Luminide servers and its file system,
 
 ## Custom Scripts
 
