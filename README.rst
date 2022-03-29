@@ -1,5 +1,5 @@
 Luminide Documentation
 =======================================
 
-This GitHub template includes documentation for the Luminide Cloud Platform for AI Model Development.
+This GitHub repo contains the documentation for the Luminide Cloud Platform for AI Model Development.
 
