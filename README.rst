@@ -1,9 +1,5 @@
-Template for the Read the Docs tutorial
+Luminide Documentation
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This GitHub template includes documentation for the Luminide Cloud Platform for AI Model Development.
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
